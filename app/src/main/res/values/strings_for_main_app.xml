@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="answer_window">#C0C0C0</color>
+    <color name="Button_colour">#808080</color>
+    <color name="back">#DCDCDC</color>
+    <color name="text">#2F4F4F</color>
+    <string name="pred_answ">Previous answer:\n</string>
+</resources>
