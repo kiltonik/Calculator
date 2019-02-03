@@ -6,20 +6,26 @@ public class CalcBD implements Calculator.BD{
 
     ArrayList<String> results = new ArrayList<String>();
     int predznak;
+    String expression = "";
 
     public void saveResult(String result){
         results.add(result);
     }
 
     @Override
-    public String getResult(int id) {
-        return results.get(id);
+    public ArrayList<String> getResults() {
+        return results;
     }
 
-    @Override
-    public String getLastResult() {
-        return results.get(results.size()-1);
-    }
+//    @Override
+//    public String getLastResult() {
+//        try{
+//            return results.get(results.size()-1);
+//        }
+//        finally {
+//            return "";
+//        }
+//    }
 
     @Override
     public void savePredZnak(int znak){
@@ -31,4 +37,18 @@ public class CalcBD implements Calculator.BD{
         return predznak;
     }
 
+    @Override
+    public void saveExpression(String expr) {
+        this.expression = expr;
+    }
+
+    @Override
+    public String getExpression(){
+        return expression;
+    }
+
+    @Override
+    public void clearExpression(){
+        expression = "";
+    }
 }

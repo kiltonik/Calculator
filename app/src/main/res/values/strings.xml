@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application 2</string>
+    <string name="app_name">Calculator</string>
     <string name="white">#FFFFFF</string>
     <string name="black">#000000</string>
     <string name="dark_button">#2F4F4F</string>
@@ -20,5 +20,6 @@
     <string name="udalit">Удалить</string>
     <string name="point">.</string>
     <string name="zero">0</string>
-    <string name="aaaa">aaaa</string>
+    <string name="gotocalc">CLose history</string>
+    <string name="history">History</string>
 </resources>

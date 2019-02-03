@@ -29,7 +29,7 @@
         android:id="@+id/pole"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/nothing"
+        app:layout_constraintBottom_toTopOf="@id/history"
         app:layout_constraintTop_toTopOf="parent"
         android:textColor="@color/White_text"
         android:gravity="end|center"
@@ -313,13 +313,16 @@
         app:layout_constraintStart_toEndOf="@+id/guidline3" />
 
     <Button
-        android:id="@+id/nothing"
+        android:id="@+id/history"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="@color/colorPrimaryDark"
         android:layout_marginBottom="2dp"
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
+        android:text="@string/history"
+        android:textColor="@color/White_text"
+        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/guidline3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/eight"/>
